@@ -11,20 +11,20 @@
 	$mail->setLanguage('ru', 'phpmailer/language/');
 	$mail->IsHTML(true);
 
-	/*
+	
 	$mail->isSMTP();                                            //Send using SMTP
-	$mail->Host       = 'smtp.example.com';                     //Set the SMTP server to send through
+	$mail->Host       = 'smtp@gmail.com';                     //Set the SMTP server to send through
 	$mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-	$mail->Username   = 'user@example.com';                     //SMTP username
-	$mail->Password   = 'secret';                               //SMTP password
+	$mail->Username   = 'epizodik';                     //SMTP username
+	$mail->Password   = 'gftr1548SW14Hgk595EEre45';                               //SMTP password
 	$mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
 	$mail->Port       = 465;                 
-	*/
+	
 
 	//От кого письмо
-	$mail->setFrom('from@gmail.com', 'Перетяжка и ремонт мебели'); // Указать нужный E-mail
+	$mail->setFrom('epizodik.com@gmail.com', 'Перетяжка и ремонт мебели'); // Указать нужный E-mail
 	//Кому отправить
-	$mail->addAddress('to@gmail.com'); // Указать нужный E-mail
+	$mail->addAddress('mobicoint@gmail.com'); // Указать нужный E-mail
 	//Тема письма
 	$mail->Subject = 'Перетяжка и ремонт мебели';
 
